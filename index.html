@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー | Rizum（リズム）</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #007AFF;
+            --success-color: #34C759;
+            --text-primary: #1C1C1E;
+            --text-secondary: #3A3A3C;
+            --text-tertiary: #8E8E93;
+            --background: #FFFFFF;
+            --surface: #F2F2F7;
+            --border: #D1D1D6;
+            --info: #5856D6;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --text-primary: #FFFFFF;
+                --text-secondary: #EBEBF5;
+                --text-tertiary: #AEAEB2;
+                --background: #000000;
+                --surface: #1C1C1E;
+                --border: #38383A;
+            }
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background-color: var(--background);
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid var(--border);
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: var(--text-tertiary);
+            margin-bottom: 8px;
+        }
+
+        .last-updated {
+            font-size: 14px;
+            color: var(--text-tertiary);
+            font-weight: 500;
+        }
+
+        section {
+            margin-bottom: 48px;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 24px 0 12px;
+            color: var(--text-secondary);
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        ul, ol {
+            margin: 16px 0;
+            padding-left: 28px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .highlight {
+            background-color: rgba(52, 199, 89, 0.1);
+            border-left: 4px solid var(--success-color);
+            padding: 16px;
+            margin: 24px 0;
+            border-radius: 8px;
+        }
+
+        .highlight p {
+            margin-bottom: 0;
+        }
+
+        .info-box {
+            background-color: rgba(88, 86, 214, 0.1);
+            border-left: 4px solid var(--info);
+            padding: 16px;
+            margin: 24px 0;
+            border-radius: 8px;
+        }
+
+        .info-box p {
+            margin-bottom: 0;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 24px 0;
+            background-color: var(--surface);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .data-table th {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .data-table td {
+            padding: 12px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+
+        .data-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background-color: var(--success-color);
+            color: white;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+
+        .contact {
+            background-color: var(--surface);
+            padding: 24px;
+            border-radius: 12px;
+            margin-top: 48px;
+        }
+
+        .contact h3 {
+            margin-top: 0;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0 20px;
+            color: var(--text-tertiary);
+            font-size: 14px;
+            border-top: 1px solid var(--border);
+            margin-top: 60px;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 16px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            header {
+                padding: 24px 0;
+            }
+
+            .data-table {
+                font-size: 14px;
+            }
+
+            .data-table th,
+            .data-table td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>プライバシーポリシー</h1>
+        <p class="subtitle">Rizum（リズム）</p>
+        <p class="last-updated">最終更新日: 2025年1月24日</p>
+    </header>
+
+    <main>
+        <section>
+            <div class="highlight">
+                <p><strong>🔒 プライバシー第一の設計:</strong> Rizum（リズム）は、お客様のプライバシーを最優先に考え、全てのデータをデバイス内にローカル保存します。お客様の個人データを外部サーバーに送信することは一切ありません。</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>1. 基本方針</h2>
+            <p>Rizum（リズム）（以下「本アプリ」といいます）は、お客様のプライバシーを尊重し、個人情報の保護に最大限の注意を払います。本プライバシーポリシー（以下「本ポリシー」といいます）は、本アプリにおける個人情報の取扱いについて説明するものです。</p>
+        </section>
+
+        <section>
+            <h2>2. 収集する情報</h2>
+
+            <h3>2.1 個人情報の収集について</h3>
+            <div class="highlight">
+                <p><strong>重要:</strong> 本アプリは、お客様の個人情報（氏名、メールアドレス、電話番号等）を一切収集しません。</p>
+            </div>
+
+            <h3>2.2 アプリ内で保存されるデータ</h3>
+            <p>本アプリは、以下のデータをお客様のデバイス内にローカル保存します。これらのデータは外部に送信されることはありません。</p>
+
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>データ種別</th>
+                        <th>内容</th>
+                        <th>保存場所</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>リマインダー情報</strong></td>
+                        <td>タイトル、時刻、繰り返し設定、カテゴリ等</td>
+                        <td>デバイス内（SQLite）<span class="badge">ローカル</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>予定情報</strong></td>
+                        <td>予定名、開始・終了時刻、メモ等</td>
+                        <td>デバイス内（SQLite）<span class="badge">ローカル</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>ライフログ</strong></td>
+                        <td>イベント記録、メモ、画像ファイル等</td>
+                        <td>デバイス内（SQLite + ファイルシステム）<span class="badge">ローカル</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>アプリ設定</strong></td>
+                        <td>通知設定、テーマ設定等</td>
+                        <td>デバイス内<span class="badge">ローカル</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>実行履歴</strong></td>
+                        <td>リマインダー・予定の実行履歴</td>
+                        <td>デバイス内（SQLite）<span class="badge">ローカル</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>3. データの利用目的</h2>
+            <p>本アプリ内に保存されるデータは、以下の目的で利用されます。全てデバイス内での処理に限定されます。</p>
+            <ul>
+                <li>リマインダー・予定の管理と通知の実行</li>
+                <li>ポモドーロタイマーの実行と記録</li>
+                <li>ライフログの記録と検索</li>
+                <li>タイムライン表示と実績分析</li>
+                <li>アプリ設定の保存と適用</li>
+                <li>アプリ機能の提供・改善</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. データの第三者提供</h2>
+            <div class="highlight">
+                <p><strong>第三者へのデータ提供は一切行いません。</strong> 本アプリは、お客様のデータを第三者に提供、販売、共有することは一切ありません。お客様のデータは全てデバイス内に保存され、外部サーバーへの送信も行いません。</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>5. 通知機能について</h2>
+
+            <h3>5.1 プッシュ通知の利用</h3>
+            <p>本アプリは、リマインダー・予定の通知を実行するために、デバイスのローカル通知機能を使用します。この通知はデバイス内で完結し、外部サーバーを経由しません。</p>
+
+            <h3>5.2 通知に含まれる情報</h3>
+            <p>通知には、以下の情報が含まれる場合があります。</p>
+            <ul>
+                <li>リマインダー・予定のタイトル</li>
+                <li>実行時刻</li>
+                <li>カテゴリ情報</li>
+                <li>その他、お客様が設定した情報</li>
+            </ul>
+
+            <div class="info-box">
+                <p><strong>プライバシー設定:</strong> 通知の表示内容は、デバイスの通知設定からカスタマイズできます。詳細を非表示にすることも可能です。</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>6. データの保存と削除</h2>
+
+            <h3>6.1 データの保存期間</h3>
+            <p>本アプリ内のデータは、お客様が削除するまで、またはアプリをアンインストールするまで、デバイス内に保存されます。</p>
+
+            <h3>6.2 データの削除方法</h3>
+            <p>お客様のデータは、以下の方法で削除できます。</p>
+            <ul>
+                <li><strong>個別削除:</strong> アプリ内の各画面から、個別のリマインダー、予定、ライフログを削除</li>
+                <li><strong>アプリデータのクリア:</strong> デバイス設定からアプリデータを削除</li>
+                <li><strong>アンインストール:</strong> アプリをアンインストールすることで、全データを削除</li>
+            </ul>
+
+            <div class="info-box">
+                <p><strong>注意:</strong> 削除されたデータは復元できません。重要なデータは事前にバックアップすることをお勧めします。</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>7. セキュリティ</h2>
+            <p>本アプリは、お客様のデータを保護するために、以下のセキュリティ対策を実施しています。</p>
+            <ul>
+                <li><strong>ローカルストレージ:</strong> 全データをデバイス内に保存し、外部送信を行わない</li>
+                <li><strong>暗号化:</strong> デバイスのOSレベルでのデータ暗号化機能を利用</li>
+                <li><strong>アクセス制限:</strong> アプリのサンドボックス内でのみデータにアクセス</li>
+                <li><strong>安全なコーディング:</strong> セキュリティベストプラクティスに従った開発</li>
+            </ul>
+
+            <h3>7.1 デバイスのセキュリティ</h3>
+            <p>お客様ご自身でも、以下のセキュリティ対策を実施することをお勧めします。</p>
+            <ul>
+                <li>デバイスにパスコードまたは生体認証を設定する</li>
+                <li>デバイスのOSを最新の状態に保つ</li>
+                <li>信頼できないアプリをインストールしない</li>
+                <li>公共のWi-Fiでの機密情報の入力を避ける</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>8. アクセス許可について</h2>
+            <p>本アプリは、以下のデバイス機能へのアクセス許可を要求する場合があります。これらは全てアプリ機能の提供に必要なものです。</p>
+
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>許可項目</th>
+                        <th>用途</th>
+                        <th>必須/任意</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>通知</strong></td>
+                        <td>リマインダー・予定の通知表示</td>
+                        <td>必須</td>
+                    </tr>
+                    <tr>
+                        <td><strong>カメラ</strong></td>
+                        <td>ライフログへの写真撮影・添付</td>
+                        <td>任意</td>
+                    </tr>
+                    <tr>
+                        <td><strong>写真ライブラリ</strong></td>
+                        <td>ライフログへの画像添付</td>
+                        <td>任意</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ストレージ</strong></td>
+                        <td>データの保存・読み込み</td>
+                        <td>必須</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="info-box">
+                <p><strong>許可の管理:</strong> これらの許可は、デバイスの設定からいつでも変更できます。ただし、必須項目の許可を取り消すと、一部機能が使用できなくなる場合があります。</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>9. 分析・クラッシュレポート</h2>
+            <p>本アプリは現在、アクセス解析ツールやクラッシュレポートツールを使用していません。将来的に導入する場合は、本ポリシーを更新し、お客様に通知します。</p>
+        </section>
+
+        <section>
+            <h2>10. 広告について</h2>
+            <p>本アプリは広告を表示しません。したがって、広告に関連する個人情報の収集・第三者提供は一切行いません。</p>
+        </section>
+
+        <section>
+            <h2>11. 子供のプライバシー</h2>
+            <p>本アプリは13歳未満のお子様を対象としていません。13歳未満のお子様が本アプリを利用される場合は、必ず保護者の方の同意を得た上でご利用ください。</p>
+            <p>本アプリは、13歳未満の子供から故意に個人情報を収集することはありません。万が一、13歳未満の子供の個人情報を収集したことが判明した場合は、速やかに削除します。</p>
+        </section>
+
+        <section>
+            <h2>12. 国際的なデータ転送</h2>
+            <p>本アプリは、お客様のデータを国外のサーバーに転送することはありません。全てのデータはお客様のデバイス内に保存されます。</p>
+        </section>
+
+        <section>
+            <h2>13. プライバシーポリシーの変更</h2>
+            <p>当方は、必要に応じて本ポリシーを変更することがあります。変更する場合は、以下の方法でお客様に通知します。</p>
+            <ul>
+                <li>アプリ内での通知表示</li>
+                <li>ウェブサイトでの告知</li>
+                <li>アプリアップデート時の変更履歴への記載</li>
+            </ul>
+            <p>重要な変更の場合は、施行前に十分な通知期間を設けます。変更後も本アプリを継続してご利用いただくことで、変更後のポリシーに同意したものとみなされます。</p>
+        </section>
+
+        <section>
+            <h2>14. お客様の権利</h2>
+            <p>お客様は、ご自身のデータについて以下の権利を有します。</p>
+            <ul>
+                <li><strong>アクセス権:</strong> アプリ内でいつでもデータを閲覧できます</li>
+                <li><strong>訂正権:</strong> データの編集・更新ができます</li>
+                <li><strong>削除権:</strong> データを個別または一括で削除できます</li>
+                <li><strong>データポータビリティ:</strong> データをエクスポートできます（将来実装予定）</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>15. 準拠法</h2>
+            <p>本ポリシーは、日本国の法律に準拠し、日本国の法律に従って解釈されるものとします。個人情報の保護に関しては、個人情報保護法およびその関連法規を遵守します。</p>
+        </section>
+
+        <div class="contact">
+            <h3>お問い合わせ</h3>
+            <p>本ポリシーに関するご質問、ご不明な点、またはプライバシーに関するご懸念がございましたら、以下の連絡先までお問い合わせください。</p>
+            <p>
+                <strong>Email:</strong> <a href="mailto:privacy@adhd-habit-timer.example.com">privacy@adhd-habit-timer.example.com</a><br>
+                <strong>お問い合わせ受付時間:</strong> 平日 10:00 - 18:00（土日祝日を除く）
+            </p>
+            <p style="margin-top: 16px;">
+                <strong>関連文書:</strong><br>
+                <a href="terms-of-service.html">利用規約</a>
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rizum. All rights reserved.</p>
+    </footer>
+</body>
+</html>
